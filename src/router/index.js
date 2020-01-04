@@ -82,6 +82,50 @@ export const constantRoutes = [
         meta: { title: '产品管理', icon: 'user' }
       }
     ]
+  },{
+    path: '/order',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'OrderList',
+        component: () => import('@/pages/order/List'),
+        meta: { title: '订单管理', icon: 'user' }
+      }
+    ]
+  },{
+    path: '/address',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'AddressList',
+        component: () => import('@/pages/address/List'),
+        meta: { title: '地址管理', icon: 'user' }
+      }
+    ]
+  },{
+    path: '/category',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'CategoryList',
+        component: () => import('@/pages/category/List'),
+        meta: { title: '栏目管理', icon: 'user' }
+      }
+    ]
+  },{
+    path: '/comment',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'CommentList',
+        component: () => import('@/pages/comment/List'),
+        meta: { title: '评论管理', icon: 'user' }
+      }
+    ]
   },
 
 
