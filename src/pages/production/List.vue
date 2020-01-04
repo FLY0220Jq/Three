@@ -87,13 +87,13 @@ export default {
             },
             options: [{
           value: '选项1',
-          label: '123'
+          label: '护理沙发'
         }, {
           value: '选项2',
           label: '家具养护'
         }, {
           value: '选项3',
-          label: '9537'
+          label: '衣物干洗'
         }, {
           value: '选项4',
           label: '洗护服务'
@@ -102,13 +102,13 @@ export default {
           label: '生活急救箱'
         }, {
           value: '选项6',
-          label: 'yyy'
+          label: '皮革修复'
         },{
           value: '选项7',
           label: '水果慢羊羊'
         },{
           value: '选项8',
-          label: 'wxj'
+          label: '做饭'
         },{
           value: '选项9',
           label: 'www'
@@ -117,10 +117,10 @@ export default {
           label: '123'
         },{
           value: '选项11',
-          label: '123'
+          label: '美国企鹅'
         },{
           value: '选项12',
-          label: 'www'
+          label: '中国熊猫'
         },{
           value: '选项13',
           label: '澳大利亚袋鼠'
@@ -132,13 +132,13 @@ export default {
           label: '9483'
         },{
           value: '选项16',
-          label: '嗷嗷嗷嗷嗷啊'
+          label: '买菜'
         },{
           value: '选项17',
-          label: '我 我我 我'
+          label: '有食物'
         },{
           value: '选项18',
-          label: '暗暗'
+          label: '购买工具'
         }],
         }
     },
